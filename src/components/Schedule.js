@@ -1,6 +1,7 @@
 import React from "react";
 import { css } from "glamor";
 import Text from "./Text";
+import VerticalTimelineComp from "./VerticalTimelineComp";
 
 const styles = {
   container: css({
@@ -9,20 +10,20 @@ const styles = {
     paddingBottom: "2em",
     //alignItems: "center",
     "@media(max-width: 720px)": {
-      alignSelf: "auto"
-    }
+      alignSelf: "auto",
+    },
   }),
   list: css({
     listStyle: "none",
     padding: 0,
     maxWidth: "600px",
-    margin: "0 auto"
+    margin: "0 auto",
   }),
   disclaimer: css({
     padding: 0,
     maxWidth: "600px",
     margin: "30px auto",
-    textAlign: "right"
+    textAlign: "right",
   }),
   event: css({
     display: "flex",
@@ -33,23 +34,23 @@ const styles = {
     " h2": {
       margin: "0 0 0.3em 0",
       " span": {
-        fontSize: "0.7em"
-      }
+        fontSize: "0.7em",
+      },
     },
     " h3": {
       fontWeight: "lighter",
       fontSize: "1.3em",
-      margin: 0
-    }
+      margin: 0,
+    },
   }),
   time: css({
     fontSize: "1.7em",
     paddingLeft: "0cm",
-    whiteSpace: "nowrap"
+    whiteSpace: "nowrap",
   }),
   desc: css({
     width: "100%",
-    padding: "0.2em 1.3em"
+    padding: "0.2em 1.3em",
   }),
 
   expHeader: css({
@@ -57,63 +58,63 @@ const styles = {
     position: "relative",
     fontSize: "1.2em",
     marginTop: "-3em",
-    marginBottom: "4em"
+    marginBottom: "4em",
   }),
 
   verticalLine: css({
     borderRight: "6px solid green",
     height: "200px",
-    paddingRight: "1em"
-  })
+    paddingRight: "1em",
+  }),
 };
 
 const eventsList = [
   {
     title: "Abertura e Credenciamento",
-    time: "7:30 am"
+    time: "7:30 am",
   },
   {
     title: "Welcome Coffee",
-    time: "7:45 am"
+    time: "7:45 am",
   },
   {
     title: "Abertura React Conf Brasil 2018",
-    time: "8:30 am"
+    time: "8:30 am",
   },
   {
     title: "Parte I",
-    time: "8:45 am"
+    time: "8:45 am",
   },
   {
     title: "Almoço",
-    time: "12:00 pm"
+    time: "12:00 pm",
   },
   {
     title: "Abertura da tarde",
-    time: "1:10 pm"
+    time: "1:10 pm",
   },
   {
     title: "Parte II",
-    time: "1:30 pm"
+    time: "1:30 pm",
   },
   {
     title: "Coffe Break",
-    time: "4:30 pm"
+    time: "4:30 pm",
   },
   {
     title: "Desconferência",
-    time: "5:00 pm"
+    time: "5:00 pm",
   },
   {
     title: "Encerramento",
-    time: "5:40 pm"
+    time: "5:40 pm",
   },
   {
     title: "After Party",
     description:
       "Open Bar (+18) Treze de Maio Show - R. Treze de Maio, 409 - Bela Vista, São Paulo",
-    time: "7:00 pm - 10:00 pm"
-  }
+    time: "7:00 pm - 10:00 pm",
+  },
 ];
 
 const Event = ({ title, time, worksIn = false, worksLink, description }) => (
@@ -129,12 +130,7 @@ const Event = ({ title, time, worksIn = false, worksLink, description }) => (
   </li>
 );
 
-const Experience = () => (
-  <div {...styles.expHeader}>
-    <h1 {...styles.verticalLine}>Education</h1>
-    <h1 {...styles.verticalLine}>Experience</h1>
-  </div>
-);
+const Experience = () => <VerticalTimelineComp />;
 
 const Schedule = ({ events = eventsList }) => (
   <section {...styles.container}>

@@ -1,7 +1,6 @@
 import React, { PureComponent } from "react";
 import { css } from "glamor";
 import Globals from "../utils/Globals";
-
 import Event from "./Event";
 import Venue from "./Venue";
 import Park from "./Park";
@@ -24,8 +23,8 @@ const styles = {
     alignItems: "center",
     justifyContent: "center",
     flexDirection: "column",
-    width: "100%"
-  })
+    width: "100%",
+  }),
 };
 
 class App extends PureComponent {
@@ -43,9 +42,9 @@ class App extends PureComponent {
         <Supporters />
         <Promotions />
         {/*<AfterParty />*/}
-        <Meetup />
-        <BuyIngressos />
-        <Contact />
+        {/*<Meetup />*/}
+        {/*<BuyIngressos />*/}
+        {/*<Contact />*/}
       </div>
     );
   }

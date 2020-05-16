@@ -15,8 +15,8 @@ const styles = {
     width: "100vw",
     //display: "flex",
     "@media(max-width: 1224px)": {
-      alignSelf: "auto"
-    }
+      alignSelf: "auto",
+    },
   }),
   imgContainer: css({
     width: "100%",
@@ -26,15 +26,15 @@ const styles = {
       float: "left",
       padding: "1em",
       margin: "3em 0 3em 0",
-      border: "1px solid lightgray"
+      border: "1px solid lightgray",
     },
     "> img": {
       maxWidth: "100%",
       margin: "0 auto",
-      objectFit: "cover"
+      objectFit: "cover",
     },
     display: "flex ",
-    margin: "0 auto"
+    margin: "0 auto",
   }),
   textContainer: css({
     display: "flex",
@@ -42,8 +42,8 @@ const styles = {
       padding: "5em 3em 0 3em",
       display: "flex",
       lineHeight: 2,
-      textAlign: "left"
-    }
+      textAlign: "left",
+    },
   }),
   subtitleContainer: css({
     display: "flex",
@@ -52,9 +52,9 @@ const styles = {
       display: "flex",
       lineHeight: 2,
       textAlign: "left",
-      color: "rgba(0,0,0,0.6)"
-    }
-  })
+      color: "rgba(0,0,0,0.6)",
+    },
+  }),
 };
 
 class TextPitch extends PureComponent {
@@ -63,7 +63,7 @@ class TextPitch extends PureComponent {
       <div {...styles.container}>
         <Text title="About Me">
           <div style={{ marginBottom: "5em" }} />
-          <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ display: "flex" }}>
             <Schedule />
           </div>
 
