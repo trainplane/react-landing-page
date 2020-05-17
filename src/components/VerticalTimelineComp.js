@@ -3,10 +3,11 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import "react-vertical-timeline-component/docs/main.css";
+import "./css/style.min.css";
+import "./css/main.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
+import StarIcon from "@material-ui/icons/Star";
 class VerticalTimelineComp extends Component {
   render() {
     return (
@@ -40,7 +41,7 @@ class VerticalTimelineComp extends Component {
           </h4>
           <p style={{ textAlign: "left" }}>
             <b>Graduation Thesis:</b> Sport News Mention Tracker using Software
-            Product Line Approach My teammate and I were working on Software
+            Product Line Approach - My teammate and I were working on Software
             Product Line (SPL) technology. SPL has plug-in model architecture
             based on strategy design pattern and all components work like wheels
             of the system thanks to it. We had worked to optimize SPL technology
@@ -110,9 +111,19 @@ class VerticalTimelineComp extends Component {
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-          icon={<WorkIcon />}
-        />
+          className="vertical-timeline-element--education"
+          date="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;04/2020 – Present"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<StarIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Huawei</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Assistant Software Engineer
+            <span style={{ float: "right", fontWeight: "normal" }}>
+              Istanbul
+            </span>
+          </h4>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     );
   }
