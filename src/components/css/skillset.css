@@ -1,0 +1,12 @@
+.iHover {
+}
+
+.iHover:hover {
+  fill: #17368a;
+}
+
+.AiFillPlusCircle {
+}
+.AiFillPlusCircle:hover {
+  fill: green;
+}

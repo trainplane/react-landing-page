@@ -8,6 +8,7 @@ import "./css/main.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import StarIcon from "@material-ui/icons/Star";
+
 class VerticalTimelineComp extends Component {
   render() {
     return (
