@@ -34,17 +34,17 @@ class App extends PureComponent {
         <Event />
         <Venue />
         {/*<Park />*/}
-        <Speakers />
+        {/*<Speakers />*/}
         {/*<Schedule />*/}
-        <TextSC4P />
-        <TextSponsor />
-        <BeSponsor />
-        <Supporters />
-        <Promotions />
+        {/*<TextSC4P />*/}
+        {/*<TextSponsor />*/}
+        {/*<BeSponsor />*/}
+        {/*<Supporters />*/}
+        {/*<Promotions />*/}
         {/*<AfterParty />*/}
         {/*<Meetup />*/}
         {/*<BuyIngressos />*/}
-        {/*<Contact />*/}
+        <Contact />
       </div>
     );
   }

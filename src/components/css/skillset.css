@@ -10,6 +10,14 @@
   fill: green;
 }
 
+.contact {
+  color: grey;
+}
+
+.contact:hover {
+  fill: black;
+}
+
 .ReactCollapse--collapse {
   overflow: hidden;
   transition: height 500ms;
