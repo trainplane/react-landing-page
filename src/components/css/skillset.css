@@ -1,12 +1,16 @@
-.iHover {
-}
+.iHover {}
 
 .iHover:hover {
   fill: #17368a;
 }
 
-.AiFillPlusCircle {
-}
+.AiFillPlusCircle {}
+
 .AiFillPlusCircle:hover {
   fill: green;
+}
+
+.ReactCollapse--collapse {
+  overflow: hidden;
+  transition: height 500ms;
 }

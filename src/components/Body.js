@@ -33,7 +33,7 @@ class App extends PureComponent {
       <div {...styles.container}>
         <Event />
         <Venue />
-        <Park />
+        {/*<Park />*/}
         <Speakers />
         {/*<Schedule />*/}
         <TextSC4P />
