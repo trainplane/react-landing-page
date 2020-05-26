@@ -26,7 +26,7 @@ const styles = {
 
 const AboutMe = () => (
   <div {...styles.header}>
-    <a href="" style={{ textDecoration: "none" }}>
+    <a href="/#" style={{ textDecoration: "none" }}>
       <h1 className="texthover">AboutMe </h1>
     </a>
   </div>
