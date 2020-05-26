@@ -1,6 +1,5 @@
 import React from "react";
 import { css } from "glamor";
-import Text from "./Text";
 import VerticalTimelineComp from "./VerticalTimelineComp";
 
 const styles = {
@@ -116,19 +115,6 @@ const eventsList = [
     time: "7:00 pm - 10:00 pm",
   },
 ];
-
-const Event = ({ title, time, worksIn = false, worksLink, description }) => (
-  <li {...styles.event}>
-    <div {...styles.time}>{time}</div>
-    <div {...styles.desc}>
-      <h2>
-        {title}
-        {worksIn && <span>{worksIn}</span>}
-      </h2>
-      {description && <h3>{description}</h3>}
-    </div>
-  </li>
-);
 
 const Experience = () => <VerticalTimelineComp />;
 

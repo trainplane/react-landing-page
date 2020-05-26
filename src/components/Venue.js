@@ -3,11 +3,10 @@ import { css } from "glamor";
 import "./css/skillset.css";
 import "./css/bootstrap-progressbar.css";
 import Globals from "../utils/Globals";
-import imgTheater from "../media/images/theater-brigadeiro.jpg";
 import Text from "./Text";
 import { FaJava, FaPython, FaReact, FaDatabase } from "react-icons/fa";
 import { DiGitBranch } from "react-icons/di";
-import { AiOutlinePlusCircle, AiFillPlusCircle } from "react-icons/ai";
+import { AiFillPlusCircle } from "react-icons/ai";
 import { Collapse } from "react-collapse";
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
@@ -100,7 +99,7 @@ class TextVenue extends PureComponent {
 
   render() {
     let selectedSkill = skillList.find(
-      (skill) => skill.language == this.state.language
+      (skill) => skill.language === this.state.language
     );
     if (selectedSkill !== undefined) {
       console.log(selectedSkill.framework[0]);

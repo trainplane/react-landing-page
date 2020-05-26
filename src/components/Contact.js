@@ -1,8 +1,7 @@
 import React, { PureComponent } from "react";
-import { css, hover } from "glamor";
+import { css } from "glamor";
 
 import Text from "./Text";
-import Globals from "../utils/Globals";
 import { FaStackOverflow, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import "./css/skillset.css";
 

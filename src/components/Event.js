@@ -1,10 +1,7 @@
 import React, { PureComponent } from "react";
-import Reveal from "react-reveal/Reveal";
 import { css } from "glamor";
 import Globals from "../utils/Globals";
 import Schedule from "./Schedule";
-import imgEvent from "../media/images/reactconfbr2017.jpg";
-// import imgEvent from "../media/images/reactconfbr-event.jpg";
 
 import Text from "./Text";
 

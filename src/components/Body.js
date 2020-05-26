@@ -4,8 +4,6 @@ import Globals from "../utils/Globals";
 import Event from "./Event";
 import Venue from "./Venue";
 
-import TextSC4P from "./C4P";
-
 import Contact from "./Contact";
 
 const styles = {

@@ -10,7 +10,7 @@ const styles = {
     justifyContent: "flex-start",
     paddingTop: 30,
     paddingBottom: 30,
-    textAlign: "left"
+    textAlign: "left",
   }),
 
   title: css({
@@ -20,20 +20,20 @@ const styles = {
     letterSpacing: 3,
     marginLeft: 30,
     lineHeight: "1em",
-    fontSize: " 1.827em "
+    fontSize: " 1.827em ",
   }),
 
   titleSpan: css({
-    color: Globals.colors.main
+    color: Globals.colors.main,
   }),
 
   hrContainer: css({
     width: 25,
-    marginLeft: 30
+    marginLeft: 30,
   }),
 
   hr: css({
-    borderColor: Globals.colors.primaryLight
+    borderColor: Globals.colors.primaryLight,
   }),
 
   subtitle: css({
@@ -46,13 +46,13 @@ const styles = {
     top: "20px",
     color: Globals.colors.main,
     borderTop: `3px solid ${Globals.colors.main}`,
-    fontWeight: 600
+    fontWeight: 600,
   }),
 
   iconflagbr: css({
     marginRight: 10,
-    width: 30
-  })
+    width: 30,
+  }),
 };
 
 const Title = () => (
@@ -63,6 +63,7 @@ const Title = () => (
     </h1>
 
     <a
+      rel="noopener noreferrer"
       href="https://github.com/trainplane"
       target="_blank"
       style={{ textDecoration: "none" }}

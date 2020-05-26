@@ -10,7 +10,7 @@ const styles = {
     justifyContent: "flex-start",
     paddingTop: 30,
     paddingBottom: 30,
-    textAlign: "left"
+    textAlign: "left",
   }),
 
   title: css({
@@ -20,13 +20,13 @@ const styles = {
     letterSpacing: 3,
     marginLeft: 30,
     lineHeight: "1em",
-    fontSize: " 1.827em "
-  })
+    fontSize: " 1.827em ",
+  }),
 };
 
 const AboutMe = () => (
   <div {...styles.header}>
-    <a href="#" style={{ textDecoration: "none" }}>
+    <a href="" style={{ textDecoration: "none" }}>
       <h1 className="texthover">AboutMe </h1>
     </a>
   </div>
