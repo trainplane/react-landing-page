@@ -2,12 +2,11 @@ import React from "react";
 import { css } from "glamor";
 import Globals from "../utils/Globals";
 
-import Logo from "./Logo";
 import Infos from "./Infos";
 import Title from "./Title";
 import AboutMe from "./AboutMe";
 import Contacts from "./Contacts";
-import Ingresso from "./Ingresso";
+
 import "./css/animation.css";
 
 import macacoImg from "../media/images/ul.jpg";
@@ -29,14 +28,14 @@ const styles = {
     justifyContent: "space-between",
     "@media(max-width: 720px)": {
       backgroundSize: "cover",
-      backgroundPosition: "30% 100px"
-    }
+      backgroundPosition: "30% 100px",
+    },
   }),
 
   box: css({
     display: "flex",
-    justifyContent: "flex-start"
-  })
+    justifyContent: "flex-start",
+  }),
 };
 
 const Header = () => (
@@ -50,8 +49,6 @@ const Header = () => (
       </span>
     </nav>
 
-    {/*<Logo />*/}
-    {/*<Ingresso />*/}
     <Infos />
   </div>
 );

@@ -66,14 +66,6 @@ class TextPitch extends PureComponent {
           <div style={{ display: "flex" }}>
             <Schedule />
           </div>
-
-          {/*<Reveal>
-              <div {...styles.imgContainer}>
-                <img src={imgEvent} alt="Meetup React SP na Pagar.me" />
-              </div>
-              <p {...styles.textContainer}>{Globals.event.text}</p>
-              <p {...styles.subtitleContainer}>{Globals.event.subtitle}</p>
-            </Reveal>*/}
         </Text>
       </div>
     );

@@ -13,9 +13,6 @@ const styles = {
     width: "100vw",
     display: "flex",
   }),
-  link: css({
-    color: "black",
-  }),
 };
 
 class TextContact extends PureComponent {
@@ -25,7 +22,7 @@ class TextContact extends PureComponent {
         <Text title="Contact">
           <a
             rel="noopener noreferrer"
-            href="https://github.com/react-brasil"
+            href="https://www.linkedin.com/in/ismail-ulas-bayram-b12b6a159/"
             target="_blank"
             style={{ color: "inherit" }}
           >
@@ -38,7 +35,7 @@ class TextContact extends PureComponent {
 
           <a
             rel="noopener noreferrer"
-            href="https://www.facebook.com/reactconf/"
+            href="https://github.com/trainplane"
             target="_blank"
             style={{ color: "inherit" }}
           >
@@ -49,22 +46,24 @@ class TextContact extends PureComponent {
             />
           </a>
 
-          <p>
-            Envie sua{" "}
-            <i lang="en" className="notranslate">
-              Pull Request
-            </i>
-            . Ajude a manter esta página:
-            <br />
-            <a {...styles.link} href="https://github.com/react-brasil/conf">
-              https://github.com/react-brasil/conf
-            </a>
-          </p>
+          <a
+            rel="noopener noreferrer"
+            href="https://stackoverflow.com/users/6045990/ulas-bayram"
+            target="_blank"
+            style={{ color: "inherit" }}
+          >
+            <FaStackOverflow
+              className="contact"
+              size="3em"
+              style={{ margin: "1em" }}
+            />
+          </a>
+
           <p>
             E-mail:
             <br />
-            <a {...styles.link} href="mailto:reactconfbr@gmail.com">
-              reactconfbr@gmail.com
+            <a style={{ color: "black" }} href="mailto:iulasbayram@gmail.com">
+              iulasbayram@gmail.com
             </a>
           </p>
         </Text>

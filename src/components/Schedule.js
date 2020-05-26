@@ -135,12 +135,6 @@ const Experience = () => <VerticalTimelineComp />;
 const Schedule = ({ events = eventsList }) => (
   <section {...styles.container}>
     <Experience />
-    {/*<ol {...styles.list}>
-      {events.map(event => (
-        <Event {...event} />
-      ))}
-    </ol>
-      <p {...styles.disclaimer}>Horário sujeito a alteração sem aviso prévio</p>*/}
   </section>
 );
 

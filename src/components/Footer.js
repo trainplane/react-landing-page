@@ -1,50 +1,50 @@
-import React, { PureComponent } from 'react';
-import { css, before } from 'glamor';
-import Globals from '../utils/Globals';
+import React, { PureComponent } from "react";
+import { css, before } from "glamor";
+import Globals from "../utils/Globals";
 
-import Item from './Item';
+import Item from "./Item";
 
 const styles = {
   container: css({
     background: Globals.colors.background,
     color: Globals.colors.white,
-    width: '100%',
-    flexDirection: 'column',
-    '@media(min-width: 720px)': {
-      width: '100%',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
+    width: "100%",
+    flexDirection: "column",
+    "@media(min-width: 720px)": {
+      width: "100%",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
     },
   }),
 
   wrapper: css({
-    width: '80%',
+    width: "80%",
     maxWidth: 1000,
-    display: 'flex',
+    display: "flex",
     padding: 20,
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-    '@media(min-width: 720px)': {
-      width: '100%',
-      justifyContent: 'space-between',
-      display: 'flex',
-      flexDirection: 'row',
+    flexDirection: "column",
+    justifyContent: "space-between",
+    "@media(min-width: 720px)": {
+      width: "100%",
+      justifyContent: "space-between",
+      display: "flex",
+      flexDirection: "row",
     },
   }),
 
   link: css({
     color: Globals.colors.main,
-    textDecoration: 'none',
+    textDecoration: "none",
   }),
 
   before: before({
     content: '""',
-    position: 'absolute',
-    left: '0',
-    bottom: '100%',
-    height: '0',
-    width: '0',
+    position: "absolute",
+    left: "0",
+    bottom: "100%",
+    height: "0",
+    width: "0",
   }),
 };
 
@@ -70,13 +70,13 @@ class Footer extends PureComponent {
           </Item>
           <Item>
             <p className="notranslate">
-              Branding:{' '}
+              Branding:{" "}
               <a {...styles.link} href="https://informatica.sp.senai.br">
                 SENAI
               </a>
             </p>
             <p>
-              Criado com:{' '}
+              Criado com:{" "}
               <a
                 {...styles.link}
                 href="https://github.com/facebookincubator/create-react-app/"
@@ -86,7 +86,7 @@ class Footer extends PureComponent {
               </a>
             </p>
             <p>
-              {' '}
+              {" "}
               <a
                 {...styles.link}
                 href="https://facebook.github.io/react/community/conferences.html"
