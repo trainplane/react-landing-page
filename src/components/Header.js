@@ -9,7 +9,7 @@ import Scroll from "react-scroll";
 import "./css/animation.css";
 import "./css/responsive-nav.css";
 
-import macacoImg from "../media/images/ul.jpg";
+import macacoImg from "../images/jellyfish.jpg";
 
 const Link = Scroll.Link;
 
