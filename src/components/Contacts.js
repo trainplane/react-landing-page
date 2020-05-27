@@ -1,7 +1,6 @@
 import React from "react";
 import { css } from "glamor";
 
-import Globals from "../utils/Globals";
 import "./css/animation.css";
 
 const styles = {
@@ -11,16 +10,6 @@ const styles = {
     paddingTop: 30,
     paddingBottom: 30,
     textAlign: "left",
-  }),
-
-  title: css({
-    color: Globals.colors.white,
-    margin: 0,
-    textTransform: "uppercase",
-    letterSpacing: 3,
-    marginLeft: 30,
-    lineHeight: "1em",
-    fontSize: " 1.827em ",
   }),
 };
 

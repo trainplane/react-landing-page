@@ -113,42 +113,42 @@ class TextVenue extends PureComponent {
               onClick={this.changeVisibility("Java")}
               className="iHover"
               size="3em"
-              style={{ margin: ".7em" }}
+              style={{ margin: ".5em" }}
               cursor="pointer"
             />
             <FaPython
               onClick={this.changeVisibility("Python")}
               className="iHover"
               size="3em"
-              style={{ margin: ".7em" }}
+              style={{ margin: ".5em" }}
               cursor="pointer"
             />
             <FaReact
               onClick={this.changeVisibility("ReactJs")}
               className="iHover"
               size="3em"
-              style={{ margin: ".7em" }}
+              style={{ margin: ".5em" }}
               cursor="pointer"
             />
             <FaDatabase
               onClick={this.changeVisibility("Database")}
               className="iHover"
               size="3em"
-              style={{ margin: ".7em" }}
+              style={{ margin: ".5em" }}
               cursor="pointer"
             />
             <DiGitBranch
               onClick={this.changeVisibility("VCS")}
               className="iHover"
               size="3em"
-              style={{ margin: ".7em" }}
+              style={{ margin: ".5em" }}
               cursor="pointer"
             />
             <AiFillPlusCircle
               onClick={this.changeVisibility("Additional")}
               className="AiFillPlusCircle"
               size="3em"
-              style={{ margin: ".7em" }}
+              style={{ margin: ".5em" }}
               cursor="pointer"
             />
           </div>
