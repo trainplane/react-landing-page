@@ -1,7 +1,6 @@
 import React from "react";
 import { css } from "glamor";
 
-import Globals from "../utils/Globals";
 import "./css/animation.css";
 
 const styles = {
@@ -14,7 +13,7 @@ const styles = {
   }),
 
   title: css({
-    color: Globals.colors.white,
+    color: "white",
     margin: 0,
     textTransform: "uppercase",
     letterSpacing: 3,
@@ -24,16 +23,7 @@ const styles = {
   }),
 
   titleSpan: css({
-    color: Globals.colors.main,
-  }),
-
-  hrContainer: css({
-    width: 25,
-    marginLeft: 30,
-  }),
-
-  hr: css({
-    borderColor: Globals.colors.primaryLight,
+    color: "#00A9FF",
   }),
 
   subtitle: css({
@@ -44,22 +34,17 @@ const styles = {
     padding: "10px 15px 0 0",
     position: "relative",
     top: "20px",
-    color: Globals.colors.main,
-    borderTop: `3px solid ${Globals.colors.main}`,
+    color: "#00A9FF",
+    borderTop: `3px solid ${"#00A9FF"}`,
     fontWeight: 600,
-  }),
-
-  iconflagbr: css({
-    marginRight: 10,
-    width: 30,
   }),
 };
 
 const Title = () => (
   <div {...styles.header}>
     <h1 {...styles.title} className="notranslate">
-      {Globals.identity.firstName}
-      <span {...styles.titleSpan}>{Globals.identity.lastName}</span>
+      {"IsmailUlas"}
+      <span {...styles.titleSpan}>{"Bayram"}</span>
     </h1>
 
     <a
@@ -69,7 +54,7 @@ const Title = () => (
       style={{ textDecoration: "none" }}
     >
       <span className="effect-shine" {...styles.subtitle}>
-        {Globals.identity.nickName}
+        {"trainplane"}
       </span>
     </a>
   </div>

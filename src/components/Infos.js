@@ -1,7 +1,6 @@
 import React, { PureComponent } from "react";
 import { css } from "glamor";
 
-import Globals from "../utils/Globals";
 import "./css/animation.css";
 
 const styles = {
@@ -9,7 +8,7 @@ const styles = {
     // alignSelf: 'flex-end',
     display: "flex",
     margin: "0",
-    color: Globals.colors.white,
+    color: "white",
     fontSize: 40,
     flexDirection: "column",
     alignItems: "center",
@@ -17,23 +16,23 @@ const styles = {
     "@media(max-width: 720px)": {
       display: "flex",
       width: "80%",
-      margin: "0 auto"
-    }
+      margin: "0 auto",
+    },
   }),
 
   header: css({
     position: "relative",
     fontSize: 30,
-    margin: "10 auto 10em auto"
+    margin: "10 auto 10em auto",
   }),
   text: css({
     fontSize: 20,
-    margin: "0 auto 4em auto"
+    margin: "0 auto 4em auto",
   }),
 
   a: css({
-    textAlign: "center"
-  })
+    textAlign: "center",
+  }),
 };
 
 class Infos extends PureComponent {
@@ -53,7 +52,7 @@ class Infos extends PureComponent {
             </div>
           </div>
         </p>
-        <p {...styles.text}>{Globals.location.city}</p>
+        <p {...styles.text}>{"Istanbul, Turkey"}</p>
       </div>
     );
   }

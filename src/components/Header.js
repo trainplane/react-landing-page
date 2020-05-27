@@ -1,6 +1,5 @@
 import React from "react";
 import { css } from "glamor";
-import Globals from "../utils/Globals";
 
 import Infos from "./Infos";
 import Title from "./Title";
@@ -18,10 +17,10 @@ const styles = {
   container: css({
     backgroundImage: `url('${macacoImg}')`,
     backgroundRepeat: "no-repeat",
-    backgroundColor: Globals.colors.backgroundHeader,
+    backgroundColor: "#080c27",
     backgroundSize: "100%",
     backgroundPosition: "160% 0px",
-    color: Globals.colors.primary,
+    color: "#222",
     width: "100%",
     minWidth: "100%",
     display: "flex",

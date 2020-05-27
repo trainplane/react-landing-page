@@ -2,7 +2,6 @@ import React, { PureComponent } from "react";
 import { css } from "glamor";
 import "./css/skillset.css";
 import "./css/bootstrap-progressbar.css";
-import Globals from "../utils/Globals";
 import Text from "./Text";
 import { FaJava, FaPython, FaReact, FaDatabase } from "react-icons/fa";
 import { DiGitBranch } from "react-icons/di";
@@ -13,8 +12,8 @@ import { Collapse } from "react-collapse";
 const styles = {
   container: css({
     alignSelf: "flex-end",
-    color: Globals.colors.white,
-    background: Globals.colors.base,
+    color: "white",
+    background: "#999999",
     width: "100vw",
     display: "flex",
     "> img": {

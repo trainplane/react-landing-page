@@ -1,6 +1,5 @@
 import React, { PureComponent } from "react";
 import { css } from "glamor";
-import Globals from "../utils/Globals";
 import Schedule from "./Schedule";
 import { Element } from "react-scroll";
 import Text from "./Text";
@@ -8,7 +7,7 @@ import Text from "./Text";
 const styles = {
   container: css({
     alignSelf: "flex-end",
-    background: Globals.colors.white,
+    background: "white",
     width: "100vw",
     //display: "flex",
     "@media(max-width: 1224px)": {

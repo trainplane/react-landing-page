@@ -1,6 +1,5 @@
 import React, { PureComponent } from "react";
 import { css } from "glamor";
-import Globals from "../utils/Globals";
 import AboutMe from "./AboutMe";
 import ProgrammingSkills from "./ProgrammingSkills";
 import Contact from "./Contact";
@@ -8,7 +7,7 @@ import Contact from "./Contact";
 const styles = {
   container: css({
     display: "flex",
-    background: Globals.colors.background,
+    background: "black",
     alignItems: "center",
     justifyContent: "center",
     flexDirection: "column",
