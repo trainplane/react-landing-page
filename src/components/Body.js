@@ -1,8 +1,8 @@
 import React, { PureComponent } from "react";
 import { css } from "glamor";
 import Globals from "../utils/Globals";
-import Event from "./Event";
-import Venue from "./Venue";
+import AboutMe from "./AboutMe";
+import ProgrammingSkills from "./ProgrammingSkills";
 import Contact from "./Contact";
 
 const styles = {
@@ -20,8 +20,8 @@ class App extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Event />
-        <Venue />
+        <AboutMe />
+        <ProgrammingSkills />
         <Contact />
       </div>
     );

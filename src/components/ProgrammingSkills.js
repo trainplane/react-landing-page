@@ -82,7 +82,7 @@ const skillList = [
   },
 ];
 
-class TextVenue extends PureComponent {
+class ProgrammingSkills extends PureComponent {
   constructor() {
     super();
     this.state = {
@@ -192,4 +192,4 @@ class TextVenue extends PureComponent {
   }
 }
 
-export default TextVenue;
+export default ProgrammingSkills;

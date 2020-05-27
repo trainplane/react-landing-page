@@ -13,12 +13,12 @@ const styles = {
   }),
 };
 
-const Contacts = () => (
+const AboutMeButton = () => (
   <div {...styles.header}>
     <a href="/#" style={{ textDecoration: "none" }}>
-      <h1 className="texthover">Contacts</h1>
+      <h1 className="texthover">AboutMe</h1>
     </a>
   </div>
 );
 
-export default Contacts;
+export default AboutMeButton;

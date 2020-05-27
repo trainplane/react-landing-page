@@ -4,8 +4,8 @@ import Globals from "../utils/Globals";
 
 import Infos from "./Infos";
 import Title from "./Title";
-import AboutMe from "./AboutMe";
-import Contact from "./Contacts";
+import AboutMeButton from "./AboutMeButton";
+import ContactButton from "./ContactButton";
 import Scroll from "react-scroll";
 import "./css/animation.css";
 import "./css/responsive-nav.css";
@@ -48,10 +48,10 @@ const Header = () => (
 
       <span className="topnav">
         <Link to="AboutMe" spy={true} smooth={true} duration={1000}>
-          <AboutMe className="elem" />
+          <AboutMeButton className="elem" />
         </Link>
         <Link to="Contact" spy={true} smooth={true} duration={2000}>
-          <Contact className="elem" />
+          <ContactButton className="elem" />
         </Link>
       </span>
     </nav>
