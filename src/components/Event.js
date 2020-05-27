@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import { css } from "glamor";
 import Globals from "../utils/Globals";
 import Schedule from "./Schedule";
-
+import { Element } from "react-scroll";
 import Text from "./Text";
 
 const styles = {
@@ -58,12 +58,14 @@ class TextPitch extends PureComponent {
   render() {
     return (
       <div {...styles.container}>
-        <Text title="About Me">
-          <div style={{ marginBottom: "5em" }} />
-          <div style={{ display: "flex" }}>
-            <Schedule />
-          </div>
-        </Text>
+        <Element id="AboutMe" name="AboutMe">
+          <Text title="About Me">
+            <div style={{ marginBottom: "5em" }} />
+            <div style={{ display: "flex" }}>
+              <Schedule />
+            </div>
+          </Text>
+        </Element>
       </div>
     );
   }

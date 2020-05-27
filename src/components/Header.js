@@ -6,10 +6,13 @@ import Infos from "./Infos";
 import Title from "./Title";
 import AboutMe from "./AboutMe";
 import Contact from "./Contacts";
+import Scroll from "react-scroll";
 import "./css/animation.css";
 import "./css/responsive-nav.css";
 
 import macacoImg from "../media/images/ul.jpg";
+
+const Link = Scroll.Link;
 
 const styles = {
   container: css({
@@ -44,8 +47,12 @@ const Header = () => (
       <Title />
 
       <span className="topnav">
-        <AboutMe className="elem" />
-        <Contact className="elem" />
+        <Link to="AboutMe" spy={true} smooth={true} duration={1000}>
+          <AboutMe className="elem" />
+        </Link>
+        <Link to="Contact" spy={true} smooth={true} duration={2000}>
+          <Contact className="elem" />
+        </Link>
       </span>
     </nav>
 

@@ -3,7 +3,6 @@ import { css } from "glamor";
 import Globals from "../utils/Globals";
 import Event from "./Event";
 import Venue from "./Venue";
-
 import Contact from "./Contact";
 
 const styles = {
