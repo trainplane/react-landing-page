@@ -1,6 +1,6 @@
 {
   "name": "IsmailUlasBayram",
-  "homepage": "http://trainplane.github.io",
+  "homepage": "https://trainplane.github.io/react-ismailulasbayram",
   "version": "1.0.0",
   "release": "0",
   "license": "SEE LICENSE IN LICENSE",
@@ -17,6 +17,8 @@
     "react-icons": "^3.10.0",
     "react-responsive": "^1.3.4",
     "react-reveal": "^1.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scroll": "^1.7.16",
     "react-snapshot": "^1.0.4",
     "react-svg-morph": "^0.1.10",
