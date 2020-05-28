@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd28a8b176d456384cf63ad849d59f0b",
+    "revision": "0b93074a7e445ed2642e5d787cec6cc6",
     "url": "/react-ismailulasbayram/index.html"
   },
   {
-    "revision": "07fc38da019005f916fa",
+    "revision": "93b010d863667e7a197c",
     "url": "/react-ismailulasbayram/static/css/main.ca741f0f.chunk.css"
   },
   {
-    "revision": "c8e3aed471e2c86e90ae",
-    "url": "/react-ismailulasbayram/static/js/2.e4404076.chunk.js"
+    "revision": "af91ea71be9470497ca5",
+    "url": "/react-ismailulasbayram/static/js/2.3e7d9847.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/react-ismailulasbayram/static/js/2.e4404076.chunk.js.LICENSE.txt"
+    "url": "/react-ismailulasbayram/static/js/2.3e7d9847.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07fc38da019005f916fa",
-    "url": "/react-ismailulasbayram/static/js/main.316a132f.chunk.js"
+    "revision": "93b010d863667e7a197c",
+    "url": "/react-ismailulasbayram/static/js/main.1bf638cc.chunk.js"
   },
   {
     "revision": "5bf3cf19b80e8686a457",
