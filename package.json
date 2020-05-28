@@ -1,6 +1,7 @@
 {
-  "name": "conf",
-  "version": "2.0.1",
+  "name": "IsmailUlasBayram",
+  "homepage": "http://ismailulasbayram.github.io",
+  "version": "1.0.0",
   "release": "0",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
@@ -41,7 +42,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [

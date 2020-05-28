@@ -42,13 +42,13 @@ class Infos extends PureComponent {
         <p {...styles.header}>
           <div {...styles.a}>
             <div id="first" className="letter">
-              <h1>Develop.</h1>
+              <h1>Develop</h1>
             </div>
             <div id="second" className="letter">
-              <h1>Your.</h1>
+              <h1>Your</h1>
             </div>
             <div id="third" className="letter">
-              <h1>Future.</h1>
+              <h1>Future</h1>
             </div>
           </div>
         </p>
