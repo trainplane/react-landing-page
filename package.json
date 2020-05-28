@@ -1,6 +1,6 @@
 {
   "name": "IsmailUlasBayram",
-  "homepage": "http://ismailulasbayram.github.io",
+  "homepage": "http://trainplane.github.io",
   "version": "1.0.0",
   "release": "0",
   "license": "SEE LICENSE IN LICENSE",
@@ -9,7 +9,6 @@
     "@material-ui/core": "^4.9.14",
     "@material-ui/icons": "^4.9.1",
     "enzyme": "^2.9.1",
-    "gh-pages": "^1.0.0",
     "glamor": "^2.20.30",
     "jquery": "^3.5.1",
     "react": "^16.13.1",
@@ -25,12 +24,12 @@
     "react-video-cover": "^1.1.0"
   },
   "devDependencies": {
+    "gh-pages": "^1.2.0",
     "husky": "^0.14.3",
     "lint-staged": "^4.0.2",
     "prettier": "^1.5.3",
     "react-scripts": "^3.4.1"
   },
-  "homepage": "https://reactconfbr.com.br/",
   "lint-staged": {
     "*.js": [
       "prettier --write --single-quote true --trailing-comma all --print-width 80",
