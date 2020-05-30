@@ -1,6 +1,6 @@
 # React Landing Page
 
-[![Build Status](https://travis-ci.com/trainplane/react-ismailulasbayram.svg?token=8UxRpCzRgX9jXf4b3ENP&branch=master)](https://travis-ci.com/trainplane/react-ismailulasbayram)
+[![Build Status](https://travis-ci.com/trainplane/react-landing-page.svg?token=8UxRpCzRgX9jXf4b3ENP&branch=master)](https://travis-ci.com/trainplane/react-landing-page)
 
 ## Preview
 
