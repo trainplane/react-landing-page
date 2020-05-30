@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-ismailulasbayram/static/css/main.ca741f0f.chunk.css",
-    "main.js": "/react-ismailulasbayram/static/js/main.1bf638cc.chunk.js",
-    "main.js.map": "/react-ismailulasbayram/static/js/main.1bf638cc.chunk.js.map",
-    "runtime-main.js": "/react-ismailulasbayram/static/js/runtime-main.a2ebf26c.js",
-    "runtime-main.js.map": "/react-ismailulasbayram/static/js/runtime-main.a2ebf26c.js.map",
-    "static/js/2.3e7d9847.chunk.js": "/react-ismailulasbayram/static/js/2.3e7d9847.chunk.js",
-    "static/js/2.3e7d9847.chunk.js.map": "/react-ismailulasbayram/static/js/2.3e7d9847.chunk.js.map",
-    "index.html": "/react-ismailulasbayram/index.html",
-    "precache-manifest.5ca077dd39b60c4b9c033ff3cf3a32d2.js": "/react-ismailulasbayram/precache-manifest.5ca077dd39b60c4b9c033ff3cf3a32d2.js",
-    "service-worker.js": "/react-ismailulasbayram/service-worker.js",
-    "static/css/main.ca741f0f.chunk.css.map": "/react-ismailulasbayram/static/css/main.ca741f0f.chunk.css.map",
-    "static/js/2.3e7d9847.chunk.js.LICENSE.txt": "/react-ismailulasbayram/static/js/2.3e7d9847.chunk.js.LICENSE.txt",
-    "static/media/jellyfish.jpg": "/react-ismailulasbayram/static/media/jellyfish.b6e118c7.jpg"
+    "main.css": "/static/css/main.ca741f0f.chunk.css",
+    "main.js": "/static/js/main.4b5ad99b.chunk.js",
+    "main.js.map": "/static/js/main.4b5ad99b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b43ab9f0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b43ab9f0.js.map",
+    "static/js/2.3e7d9847.chunk.js": "/static/js/2.3e7d9847.chunk.js",
+    "static/js/2.3e7d9847.chunk.js.map": "/static/js/2.3e7d9847.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.66585ffad30edb7ff37f0a663903a7d6.js": "/precache-manifest.66585ffad30edb7ff37f0a663903a7d6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ca741f0f.chunk.css.map": "/static/css/main.ca741f0f.chunk.css.map",
+    "static/js/2.3e7d9847.chunk.js.LICENSE.txt": "/static/js/2.3e7d9847.chunk.js.LICENSE.txt",
+    "static/media/jellyfish.jpg": "/static/media/jellyfish.b6e118c7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2ebf26c.js",
+    "static/js/runtime-main.b43ab9f0.js",
     "static/js/2.3e7d9847.chunk.js",
     "static/css/main.ca741f0f.chunk.css",
-    "static/js/main.1bf638cc.chunk.js"
+    "static/js/main.4b5ad99b.chunk.js"
   ]
 }
