@@ -8,12 +8,6 @@ You can check out [live preview](https://trainplane.github.io/react-landing-page
 
 ## Setup
 
-At terminal, Git clone your fork:
-
-```
-git clone git@github.com:yourUsername/conf.git
-```
-
 Install packages:
 
 ```
