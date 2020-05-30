@@ -69,7 +69,7 @@ const styles = {
 
 const Experience = () => <VerticalTimelineComp />;
 
-const Schedule = ({ events = eventsList }) => (
+const Schedule = () => (
   <section {...styles.container}>
     <Experience />
   </section>
